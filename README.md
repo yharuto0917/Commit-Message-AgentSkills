@@ -14,6 +14,21 @@ A comprehensive Claude Code skill for creating effective and readable commit mes
 
 ## 📦 Installation
 
+### 🚀 For Gemini CLI Users
+
+1. **Install using Gemini CLI**
+   ```bash
+   gemini skills install commit-message.skill
+   ```
+   Or install directly from the folder:
+   ```bash
+   gemini skills install .
+   ```
+
+2. **Start using**
+   - Just ask Gemini: "Create a commit message"
+   - Gemini will automatically utilize the installed skill.
+
 ### 🤖 For Claude Code Users
 
 1. **Download the skill package**
@@ -268,7 +283,7 @@ This skill was created following the Claude Code Skill Creator guidelines. Feedb
 
 ## 📄 License
 
-This skill is provided as-is for use with Claude Code.
+MIT
 
 ---
 

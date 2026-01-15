@@ -14,6 +14,21 @@
 
 ## 📦 インストール方法
 
+### 🚀 Gemini CLI ユーザー向け
+
+1. **Gemini CLI を使用してインストール**
+   ```bash
+   gemini skills install commit-message.skill
+   ```
+   またはフォルダから直接インストール：
+   ```bash
+   gemini skills install .
+   ```
+
+2. **使用開始**
+   - Gemini に「コミットメッセージを作成して」と依頼
+   - Gemini は自動的にインストールされたスキルを使用します。
+
 ### 🤖 Claude Code ユーザー向け
 
 1. **スキルパッケージをダウンロード**
@@ -269,7 +284,7 @@ Fixes #789
 
 ## 📄 ライセンス
 
-このスキルは Claude Code での使用のために提供されています。
+MIT
 
 ---
 
